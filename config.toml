@@ -1,0 +1,6 @@
+baseURL = "https://docs.fearthec.io/"
+languageCode = "en-us"
+title = "FTC Discord Bot documentation"
+theme = "hugo-theme-learn"
+[params]
+  themeVariant = "learn-ftc"
