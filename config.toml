@@ -1,6 +1,23 @@
 baseURL = "https://docs.fearthec.io/"
-languageCode = "en-us"
+languageCode = "en"
+DefaultContentLanguage = "en"
 title = "FTC Discord Bot documentation"
 theme = "hugo-theme-learn"
+
+
 [params]
   themeVariant = "learn-ftc"
+  
+
+
+[languages]
+  [languages.en]
+    title = "FTC Discord Bot documentation"
+    weight = 1
+    [languages.en.params]
+  [languages.fr]
+    title = "Documentations FTC Discord Bot"
+    weight = 2
+    [languages.fr.params]
+      [languages.fr.params.navigation]
+        help = "Aide"
